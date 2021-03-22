@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+input,label{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 800px;
+    font-size:40pt;
+}
+button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    font-size:40pt;
+    margin-top: 2%;
+}
+
+input:focus{
+    background-color: lightblue;
+    color:azure;
+}
